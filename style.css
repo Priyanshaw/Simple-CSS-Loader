@@ -1,0 +1,19 @@
+.loader {
+  height: 400px;
+  width: 400px;
+  border: 8px solid #0d2c54;
+  border-top: 8px solid #ffc857;
+  margin: auto auto;
+  border-radius: 50%;
+  animation: loader 1s linear 0.5s infinite normal;
+  margin-top: 10vh;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
